@@ -1,6 +1,6 @@
 {
     "name": "ctrlfilezillaserver",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "CtrlFileZillaServer é um conjunto de funções para gerenciar o FileZilla Server",
     "author": "Paloma Macetko <cmacetko@gmail.com>",
     "main": "index.js",

@@ -5,7 +5,7 @@
 ![Language](https://img.shields.io/badge/language-nodejs-orange)
 ![Platforms](https://img.shields.io/badge/platforms-Windows%2C%20macOS%20and%20Linux-blue)
 ![License](https://img.shields.io/github/license/cmacetko/ctrlfilezillaserver)
-
+[![HitCount](http://hits.dwyl.com/cmacetko/ctrlfilezillaserver.svg)](http://hits.dwyl.com/cmacetko/ctrlfilezillaserver)
 
 **FileZilla** é um dos melhores **servidores FTP gratuitos**, fácil de utilizar e muito estável, porem, não possui API.
 Toda gestão é feita via interface gráfica, o que acaba dificultando um gerenciamento automático do servidor.
@@ -13,7 +13,6 @@ Para contornar isto, criei um repositório que gerencia as contas de FTP modific
 
 **Você pode baixar o Filezilla server em:**
 [https://filezilla-project.org/download.php?type=server](https://filezilla-project.org/download.php?type=server)
-
 
 ------------
 
@@ -374,3 +373,16 @@ Error: Error: Error: Conta nao localizada
     at Object.contas_criar (G:\index.js:362:12)
     at G:\tests.js:7:19
 ```
+
+# Contato
+
+**Paloma Macetko**
+- cmacetko@gmail.com
+- https://github.com/cmacetko/
+- https://www.npmjs.com/~cmacetko
+- https://cmacetko.medium.com
+- https://www.facebook.com/cmacetko
+- https://www.instagram.com/cmacetko/
+- https://twitter.com/cmacetko
+- [Skype: cmacetko](skype:cmacetko "cmacetko")
+- [Whatsapp: 47-91277858](https://wa.me/554791277858 "Whatsapp: 47-91277858")
