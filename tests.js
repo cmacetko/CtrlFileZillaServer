@@ -12,7 +12,7 @@ FilezillaCtrl.init("C:\\Program Files (x86)\\FileZilla Server\\").then(function(
 
     });
    
-    var InfDad = { Senha: "aaabbb", Diretorio: "C:\\PastaTeste1", Permissoes: {"FileRead": true,"FileWrite": true,"FileDelete": true,"FileAppend": true,"DirCreate": true,"DirDelete": true,"DirList": true,"DirSubdirs": true,"IsHome": true,"AutoCreate": false} };
+    var InfDad = { Senha: "aaabbb", Diretorio: "C:\\PastaTeste1", Permissoes: {"FileRead": true,"FileWrite": true,"FileDelete": true,"DirCreate": true,"DirDelete": true,"DirList": true,"DirSubdirs": true} };
 
     FilezillaCtrl.contas_alterar("teste1", InfDad).then(function(){
 
@@ -44,7 +44,7 @@ FilezillaCtrl.init("C:\\Program Files (x86)\\FileZilla Server\\").then(function(
 
     });
 
-    FilezillaCtrl.contas_alterar_permissoes("teste1", {"FileRead": true,"FileWrite": true,"FileDelete": true,"FileAppend": true,"DirCreate": true,"DirDelete": true,"DirList": true,"DirSubdirs": true,"IsHome": true,"AutoCreate": false}).then(function(){
+    FilezillaCtrl.contas_alterar_permissoes("teste1", {"FileRead": true,"FileWrite": true,"FileDelete": true,"DirCreate": true,"DirDelete": true,"DirList": true,"DirSubdirs": true}).then(function(){
 
         console.log("OK");
 
@@ -74,7 +74,7 @@ FilezillaCtrl.init("C:\\Program Files (x86)\\FileZilla Server\\").then(function(
 
     });
 
-    var InfDad = { Senha: "aaabbb", Diretorio: "C:\\PastaTeste1", Permissoes: {"FileRead": true,"FileWrite": true,"FileDelete": true,"FileAppend": true,"DirCreate": true,"DirDelete": true,"DirList": true,"DirSubdirs": true,"IsHome": true,"AutoCreate": false} };
+    var InfDad = { Senha: "aaabbb", Diretorio: "C:\\PastaTeste1", Permissoes: {"FileRead": true,"FileWrite": true,"FileDelete": true,"DirCreate": true,"DirDelete": true,"DirList": true,"DirSubdirs": true} };
 
     FilezillaCtrl.contas_criar("teste1", InfDad).then(function(){
 
