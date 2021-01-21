@@ -1,0 +1,38 @@
+{
+    "name": "ctrlfilezillaserver",
+    "version": "1.0.1",
+    "description": "CtrlFileZillaServer é um conjunto de funções para gerenciar o FileZilla Server",
+    "author": "Paloma Macetko <cmacetko@gmail.com>",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "homepage": "https://github.com/cmacetko/ctrlfilezillaserver",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cmacetko/ctrlfilezillaserver"
+    },
+    "bugs": {
+        "url": "https://github.com/cmacetko/ctrlfilezillaserver/issues"
+    },
+    "keywords": [
+        "filezilla",
+        "filezilla server",
+        "ftp",
+        "ftp server",
+        "listar contas",
+        "criar conta",
+        "editar conta",
+        "deletar conta"
+    ],
+    "dependencies": {
+        "await-spawn": "^4.0.1",
+        "fs": "0.0.1-security",
+        "js-sha512": "^0.8.0",
+        "xml-js": "^1.6.11"
+    },
+    "scripts": {
+        "test": "node tests"
+    }
+}
